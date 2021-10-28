@@ -2,7 +2,7 @@ body{
     background: #E2C2B9;
 }
 
-div{
+.cabecalho{
     background-color: #BFD8B8;
     margin: 10px 10px auto;
     padding: 30px 30px auto;
@@ -22,21 +22,12 @@ h1{
 
 }
 
-h2{
-    margin: 20px 10px auto;
-    color: #798777;
-    text-transform: capitalize;
-    font-size: 26px;
-    font-family: Times New Roman;
-}
-
 table{
     width: 10%;
     font-weight: normal;
     margin: 40px auto 20px;
     border: 1px #000 solid;
     border-collapse: collapse;
-    
 }
 
 table thead{
@@ -44,20 +35,6 @@ table thead{
     font-size: 14px;
     text-transform: uppercase;
     height: 30px;
-}
-
-table thead th{
-    border: 1px solid rgb(209, 13, 13);
-}
-
-table tbody tr{
-    height: 25px;
-    font-size: 14px;
-}
-
-table tbody tr td{
-    padding: 8px 10px;
-    border: 1px solid #000;
 }
 
 nav{
@@ -71,4 +48,67 @@ nav a{
     margin: 30px;
     padding-top: auto;
     font-size: 18px;
+}
+
+.login{
+    background: #BFD8B8;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+h2{
+    margin: 15px 20px 40px 20px;
+    padding: 50px 10px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #1f2f4d;
+    font-family: Times New Roman;
+}
+h3{
+    margin: 5px 20px 20px 20px;
+    text-align: center;
+    text-transform: none;
+    font-size: 30px;
+    font-family: Times New Roman;  
+}
+form{
+    margin: 5px auto;
+    border: 0.5px solid #000;
+    width: 40%;
+    padding: 20px 10px;
+    text-align: right;
+    font-family: Times New Roman;
+}
+label{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+input{
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 28px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+input[type="submit"], button{
+    cursor: pointer;
+    background: #1f2f4d;
+    color: rgb(253, 251, 251);
+    display: inline-block;
+    height: 35px;
+}
+button{
+    background: rgb(250, 248, 248);
+    border: none;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover{
+    background: #fff;
+    color: #0a0a0a;
+    border: 1px solid #080808;
 }

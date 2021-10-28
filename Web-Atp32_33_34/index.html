@@ -1,11 +1,11 @@
-<html>
+<html lang="pt-br">
     <head>
         <title>Agencia de Viagens Travel</title>
         <link rel="stylesheet" href="/Web-Atp32_33_34/css/index.css">
-        <script src="script.js"></script>
+        <script src="script-index.js"></script>
     </head>
     <body>
-        <div>
+        <div class="cabecalho">
             <h1> Agencia Travel </h1>
             <nav>
                 <a href="create.html"> Cadastrar </a> 
@@ -14,7 +14,19 @@
                 <a href="delete.html"> Deletar </a> 
             </nav>
         </div>
-        <h2> Seja Bem Vindo!</h2>
-        <h3> Sistema de cadastro de clientes</h3>        
+        <div class="login">
+            <h2> Seja Bem Vindo!</h2>
+            <form>
+                <br>
+                
+                <h3> Sistema de cadastro de clientes</h3>    
+
+                Usuario:<input type="text" id="login" placeholder="Digite o seu usuário "><br><br>
+                Senha:<input type="password" id="senha" placeholder="Digite sua senha "><br><br>
+                
+                <input type="Submit"  value="Entrar" onclick="entrar(event)">
+
+            </form>
+        </div>
     </body>
 </html>
