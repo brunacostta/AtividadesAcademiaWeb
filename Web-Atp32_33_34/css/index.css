@@ -1,0 +1,74 @@
+body{
+    background: #E2C2B9;
+}
+
+div{
+    background-color: #BFD8B8;
+    margin: 10px 10px auto;
+    padding: 30px 30px auto;
+    text-align: left;
+    border-radius: 10px;
+}
+
+h1{
+    color: #1C7947;
+    background-color: #CEE5D0;
+    margin: 15px 10px 15px 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Garamond;
+    display: inline-block;
+
+}
+
+h2{
+    margin: 20px 10px auto;
+    color: #798777;
+    text-transform: capitalize;
+    font-size: 26px;
+    font-family: Times New Roman;
+}
+
+table{
+    width: 10%;
+    font-weight: normal;
+    margin: 40px auto 20px;
+    border: 1px #000 solid;
+    border-collapse: collapse;
+    
+}
+
+table thead{
+    background: #ccc;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 30px;
+}
+
+table thead th{
+    border: 1px solid rgb(209, 13, 13);
+}
+
+table tbody tr{
+    height: 25px;
+    font-size: 14px;
+}
+
+table tbody tr td{
+    padding: 8px 10px;
+    border: 1px solid #000;
+}
+
+nav{
+    float: right;
+    margin-top: auto;
+}
+
+nav a{
+    color: #1C7947;
+    display: inline-block;
+    margin: 30px;
+    padding-top: auto;
+    font-size: 18px;
+}
